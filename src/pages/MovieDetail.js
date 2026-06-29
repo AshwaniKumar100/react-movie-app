@@ -25,7 +25,7 @@ export const MovieDetail = () => {
     }
 
      fetchMovie();
-  }, []);
+  }, [params.id]);
 
   // Directly Hook -
    const pageTitle = useTitle(`${movie.title}`);
