@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { useFetch } from "../hooks/useFetch";
 import {useTitle} from "../hooks/useTitle";
 import { Card } from "../components";
@@ -10,7 +10,7 @@ export const MovieList = ({apiPath, title}) => {
    // https://api.themoviedb.org/3/movie/now_playing?api_key=60304cf42166fb98070117fc875a3ddc
    const { data : movies = [] } = useFetch(apiPath);
    
-   const pageTitle = useTitle(`${title}`);
+    useTitle(`${title}`);  //const pageTitle =
 
     //   useEffect(() => {
     //      document.title = `${title} / Cinemate`;
