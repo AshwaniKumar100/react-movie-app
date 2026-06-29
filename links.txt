@@ -1,0 +1,24 @@
+
+Search :  'https://api.themoviedb.org/3/search/movie?query=avatar&include_adult=false&language=en-US&page=1'
+
+Base URL : https://api.themoviedb.org/3
+
+Individual : 
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=60304cf42166fb98070117fc875a3dd
+
+NOw Playing : 
+https://api.themoviedb.org/3/movie/now_playing?api_key=60304cf42166fb98070117fc875a3dd
+
+Popular : 
+https://api.themoviedb.org/3/movie/popular?api_key=60304cf42166fb98070117fc875a3dd
+
+Top Rated :
+https://api.themoviedb.org/3/movie/top_rated?api_key=60304cf42166fb98070117fc875a3dd
+
+Upcoming : 
+https://api.themoviedb.org/3/movie/upcoming?api_key=60304cf42166fb98070117fc875a3dd
+
+Search : 
+https://api.themoviedb.org/3/search/movie?api_key=60304cf42166fb98070117fc875a3dd&query={movie_name}
+
+
